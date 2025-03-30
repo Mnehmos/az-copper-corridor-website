@@ -147,12 +147,3 @@ footer {
 .listings-container {
     /* Container for dynamically managed listings */
 }
-
-
-/* Google Map Style */
-#map {
-  height: 400px; /* Adjust height as needed */
-  width: 100%;
-  margin: 1.5rem 0; /* Add vertical spacing */
-  border: 1px solid #ccc; /* Optional border */
-}
