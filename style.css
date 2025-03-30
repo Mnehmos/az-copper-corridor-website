@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #004466; /* Dark blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    background-color: #005580; /* Slightly lighter blue */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #0077aa; /* Lighter blue for hover */
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #004466;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #ddd;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.business-listing {
+    border: 1px solid #eee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fdfdfd;
+}
+
+.business-listing h3 {
+    margin-top: 0;
+    color: #005580;
+}
+
+.business-listing p {
+    margin: 0.5rem 0;
+}
+
+.business-listing strong {
+    display: inline-block;
+    min-width: 80px; /* Align labels */
+}
+
+.ad-placeholder {
+    min-height: 90px;
+    border: 1px dashed #ccc;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #fafafa;
+    color: #999;
+}
+
+/* Styles for interactive controls */
+.directory-controls {
+    background-color: #e9e9e9;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+}
+
+.control-group {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.control-group label {
+    font-weight: bold;
+    min-width: 120px; /* Align labels */
+}
+
+.control-group input[type="text"],
+.control-group select {
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex-grow: 1;
+    min-width: 150px;
+}
+
+.control-group button {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.control-group button:hover {
+    background-color: #ddd;
+}
+
+.control-group button.active {
+    background-color: #005580;
+    color: #fff;
+    border-color: #004466;
+}
+
+.listings-container {
+    /* Container for dynamically managed listings */
+}
