@@ -85,6 +85,43 @@ footer {
 }
 
 .business-listing p {
+
+
+/* Two-column layout for listings */
+.business-listing {
+    /* Existing styles... */
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens if needed */
+    gap: 1.5rem; /* Space between columns */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.listing-info {
+    flex: 2; /* Allow info section to take up more space */
+    min-width: 250px; /* Ensure info doesn't get too squished */
+}
+
+.listing-visual {
+    flex: 1; /* Allow visual section to take up remaining space */
+    min-width: 200px; /* Minimum width for the visual area */
+    /* Add any desired alignment or background for the visual container */
+    /* background-color: #f0f0f0; /* Example background */
+    /* padding: 1rem; */
+    /* border-left: 1px solid #eee; */ /* Example separator */
+}
+
+/* Adjustments for smaller screens (optional) */
+@media (max-width: 768px) {
+    .business-listing {
+        flex-direction: column; /* Stack columns vertically */
+        gap: 1rem;
+    }
+    .listing-visual {
+         border-left: none; /* Remove separator on small screens */
+         /* border-top: 1px solid #eee; */ /* Add top separator instead */
+    }
+}
+
     margin: 0.5rem 0;
 }
 
