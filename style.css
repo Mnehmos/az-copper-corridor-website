@@ -56,6 +56,13 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
+.area-intro {
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+
 footer {
     text-align: center;
     margin-top: 2rem;
