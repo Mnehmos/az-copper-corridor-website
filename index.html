@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Directory of businesses supporting the Copper Corridor region of Arizona, including Safford, Morenci, Globe, and Wilcox areas.">
+    <meta name="description" content="Find local businesses in the Arizona Copper Corridor! Your directory for services in Safford, Morenci, Globe, Wilcox, and surrounding areas. Explore listings now.">
     <title>Arizona Copper Corridor Business Directory</title>
     <link rel="stylesheet" href="style.css">
     <script src="interactive.js" defer></script>
@@ -38,6 +38,15 @@
         <h2>Welcome to the Copper Corridor Directory</h2>
         <p>This directory provides information on businesses and services supporting the Copper Corridor region of Arizona.</p>
         <p>Select an area from the navigation menu to view the relevant business listings.</p>
+        <section class="intro">
+            <h3>About the Arizona Copper Corridor</h3>
+            <p>Stretching through scenic landscapes and historic mining towns, the Arizona Copper Corridor is a region rich in history and natural beauty. This directory connects you with local businesses serving communities like Safford, Morenci, Globe, and Wilcox, supporting the vibrant economy of this unique area.</p>
+            <p>Explore the directory to find services, shops, restaurants, and more in your area.</p>
+            <!-- Maybe add a simple map image here later -->
+        </section>
+        <div id="map"></div>
+
+
 
         <!-- Ads will be dynamically inserted on listing pages -->
         <!-- Removed Featured Analysis section -->
@@ -45,6 +54,8 @@
 
     <footer>
         <p>&copy; 2025 Copper Corridor Directory</p>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdls2N-g5ybCObqwZ1tvbS1nzfG_x7LNg&callback=initMap&libraries=marker&v=beta" async defer></script>
+
     </footer>
 </body>
 </html>
