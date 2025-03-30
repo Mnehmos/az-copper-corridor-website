@@ -56,6 +56,13 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
+.area-intro {
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+
 footer {
     text-align: center;
     margin-top: 2rem;
@@ -146,13 +153,4 @@ footer {
 
 .listings-container {
     /* Container for dynamically managed listings */
-}
-
-
-/* Google Map Style */
-#map {
-  height: 400px; /* Adjust height as needed */
-  width: 100%;
-  margin: 1.5rem 0; /* Add vertical spacing */
-  border: 1px solid #ccc; /* Optional border */
 }
