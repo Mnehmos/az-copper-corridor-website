@@ -14,6 +14,14 @@ header {
     text-align: center;
 }
 
+.header-logo {
+    height: 50px; /* Adjust size as needed */
+    width: auto;
+    margin-bottom: 0.5rem; /* Space below logo */
+    vertical-align: middle; /* Align with text if needed */
+}
+
+
 header h1 {
     margin: 0;
     font-size: 1.8rem;
